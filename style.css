@@ -137,6 +137,81 @@ nav a:hover {
     margin: 2em auto;
 }
 
-@media screen and (max-width: 480px){
-    
+@media screen and (max-width: 480px) {
+    .caixa,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    .video{
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagens-beneficios {
+        width: 100%;
+    }
+}
+
+footer {
+    text-align: center;
+    backgroun: url('img/bg.ppg');
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font: 13px;
+    margin: 20px 0 0;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+   display: inline-block; 
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color:#c78c19;
+}
+
+.produtos li:active{
+    border-color:#088c19
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size:30px;
+    font-weight: bold;
+}
+
+.produtos-descricao {
+    font-size:18px;
+}
+
+;produtos-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
