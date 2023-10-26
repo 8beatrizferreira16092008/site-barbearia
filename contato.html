@@ -33,7 +33,72 @@
             <label for="telefone">Telefone</label>
             <input type="tel" id="telefone" class="input-padrao"
             required placeholder="(XX) XXXXX-XXXX"/>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required>
+            </textarea>
+
+            <fieldset
+            legend>Como prefere o nosso contato?</fieldset>
+            <label for="radio-email"></label>
+            <input type="radio" name="contato" value="E-mail" id="radio=email"/>E-mail
+            </label>
+
+            <label for="radio-telefone">
+                <input type="radio" name="contato" value="Telefone" id="radio-telefone"/>
+                Telefone</label>
+
+                <label for="radio-whatsapp"
+                    <input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp"
+                    checked/>Whatsapp</labrl>
+            </fieldset>
+
+            <fieldset
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Note</option>
+                </select>
+            </fieldst>
+
+            <label class="checkbox">
+                <input type="checkbox" checked />Gostaria de receber nossas novidades por e-mail?
+            </label>
+
+            ,<input type="submit" value="Enviar" class="enviar" />
         </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horiario</th>
+                </tr>
+            </thead>
+
+            <tdoby>
+                <tr>
+                    <td>segunda</td>
+                    <td>8h às 20h</td> 
+                </tr>
+
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h às 20h</td>
+                </tr>
+                
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h às 20h</td>
+                </tr>
+            </tdoby>
+        </table>
     </main>
+
+    <footer>
+        <img src="/logo-branco.png">
+        <p class="copyright"> &copy;copyright Barbearia Alura - 2023</p>
+    </footer>
 </body>
 </html>
